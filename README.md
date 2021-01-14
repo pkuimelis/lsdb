@@ -2,7 +2,7 @@
 
 ### LSDB: trippy-fast graph database
 
-LSDB is a property-graph database influenced by [Neo4j](https://neo4j.com/) and [CruxDB](https://github.com/juxt/crux).
+LSDB is a [property-graph database](https://en.wikipedia.org/wiki/Graph_database#Labeled-property_graph) influenced by [Neo4j](https://neo4j.com/) and [CruxDB](https://github.com/juxt/crux).
 
 LSDB is made up of two services: LSDB-compute and LSDB-store. These services communicate using the gRPC protocol.
 
