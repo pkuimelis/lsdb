@@ -1,3 +1,5 @@
+[![<pkuimelis>](https://circleci.com/<github>/<pkuimeis>/<lsdb>.svg?style=svg)](<LINK>)
+
 ### LSDB: trippy-fast graph database
 
 LSDB is a property-graph database influenced by [Neo4j](http://https://neo4j.com/) and [CruxDB](https://github.com/juxt/crux).
