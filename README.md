@@ -11,4 +11,4 @@ In other words, the LSDB-store service API roughly implements the operations in 
 
 For storage, LSDB-store uses [LMDB](http://www.lmdb.tech/doc/), a high-performance, transactional key value storage engine implemented as a memory mapped B-Tree. LMDB was chosen specifically for its unmatched read performance on spinning disk drives.
 
-LSDB-store should have utility as a standalone service, for projects which require a storage engine with property-graph semantics but not a full-blown graph DBMS.
+LSDB-store should have utility as a standalone service, for projects which require a storage engine with property-graph semantics and indexes but not a full-blown graph DBMS.
