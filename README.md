@@ -1,4 +1,4 @@
-[![<pkuimelis>](https://circleci.com/<github>/<pkuimeis>/<lsdb>.svg?style=svg)](<LINK>)
+[![<pkuimelis>](https://circleci.com/github/pkuimeis/lsdb.svg?style=svg)](test)
 
 ### LSDB: trippy-fast graph database
 
