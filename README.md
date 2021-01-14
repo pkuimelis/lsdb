@@ -1,4 +1,4 @@
-[![pkuimelis](https://circleci.com/gh/pkuimeis/lsdb.svg?style=svg)](https://circleci.com/gh/pkuimeis/lsdb)
+[![pkuimelis](https://circleci.com/gh/pkuimelis/lsdb.svg?style=svg)](https://circleci.com/gh/pkuimelis/lsdb)
 
 ### LSDB: trippy-fast graph database
 
