@@ -7,7 +7,7 @@ LSDB is a property-graph database influenced by [Neo4j](http://https://neo4j.com
 LSDB is made up of two services: LSDB-compute and LSDB-store. These services communicate over gRPC.
 
 LSDB-compute parses, plans and executes [CYPHER](https://neo4j.com/docs/cypher-manual/current/) queries. Query plans are composed of internal and leaf (requiring access to underlying vertices and edges) nodes. To evaluate leaf nodes, LSDB-compute contacts LSDB-store and requests the necessary data.
-In other words LSDB-store roughly implements the operations in Neo4j that incur [database hits](https://neo4j.com/docs/cypher-manual/current/execution-plans/db-hits/).
+In other words, the LSDB-store service API roughly implements the operations in Neo4j that incur [database hits](https://neo4j.com/docs/cypher-manual/current/execution-plans/db-hits/).
 
 For storage, LSDB-store uses [LMDB](http://www.lmdb.tech/doc/), a high-performance, transactional key value storage engine implemented as a memory mapped B-Tree. LMDB was chosen specifically for its unmatched read performance on spinning disk drives.
 
