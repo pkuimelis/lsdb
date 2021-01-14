@@ -1,0 +1,1 @@
+Objects representing vertices and edges, with custom serialization logic.

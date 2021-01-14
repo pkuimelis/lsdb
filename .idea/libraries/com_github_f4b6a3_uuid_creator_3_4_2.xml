@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.github.f4b6a3:uuid-creator:3.4.2" type="repository">
+    <properties maven-id="com.github.f4b6a3:uuid-creator:3.4.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/f4b6a3/uuid-creator/3.4.2/uuid-creator-3.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

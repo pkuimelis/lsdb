@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "com.lsdb.store.serialization";
+option java_outer_classname = "EdgeProto";
+
+message Edge {
+
+  string id = 1;
+  string label = 2;
+  map<string, string> properties = 3;
+
+  string headVertexId = 4;
+  string tailVertexId = 5;
+
+}

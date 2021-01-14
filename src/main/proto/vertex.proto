@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "com.lsdb.store.serialization";
+option java_outer_classname = "VertexProto";
+
+message Vertex {
+
+  string id = 1;
+  string label = 2;
+  map<string, string> properties = 3;
+
+  repeated string incomingEdgeIds = 4;
+  repeated string outgoingEdgeIds = 5;
+}
