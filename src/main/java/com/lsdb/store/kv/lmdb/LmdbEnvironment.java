@@ -15,7 +15,7 @@ import static org.lmdbjava.DbiFlags.MDB_CREATE;
  */
 public class LmdbEnvironment implements Environment {
 
-    public static String DB_ROOT = "/home/hdd-1/lsdb/";
+    public static String DB_ROOT = "/tmp/lsdb/";
 
     private final Env<ByteBuffer> env;
 
