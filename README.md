@@ -4,7 +4,7 @@
 
 LSDB is a [property-graph database](https://en.wikipedia.org/wiki/Graph_database#Labeled-property_graph) influenced by [Neo4j](https://neo4j.com/) and [CruxDB](https://github.com/juxt/crux).
 
-LSDB is made up of two services: LSDB-compute and LSDB-store. These services communicate using the gRPC protocol.
+LSDB is made up of two services: LSDB-compute and LSDB-store. These services communicate over gRPC.
 
 LSDB-compute parses, plans and executes [CYPHER](https://neo4j.com/docs/cypher-manual/current/) queries. LSDB query plans are composed of internal and leaf (requiring access to underlying vertices and edges) nodes. To evaluate leaf nodes, LSDB-compute contacts LSDB-store and requests the necessary data.
 In other words, the LSDB-store service API roughly implements the operations in Neo4j that incur [database hits](https://neo4j.com/docs/cypher-manual/current/execution-plans/db-hits/).
